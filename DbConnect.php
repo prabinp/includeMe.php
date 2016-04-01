@@ -4,9 +4,9 @@
  
  * How to use -
  
- 	new DbConnect("Server_name","User_name","Password","Database_Name");
+ 	Obj = new DbConnect("Server_name","User_name","Password","Database_Name");
 		
-	To chec wheather the connection is established or not use isConnect() function it returns boolean falue
+	To check whether the connection is established or not use isConnect() function it returns boolean false
 	
 	That's yet. Than you.
 	
