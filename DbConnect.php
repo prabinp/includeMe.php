@@ -6,10 +6,7 @@
  
  	Obj = new DbConnect("Server_name","User_name","Password","Database_Name");
 		
-	To check whether the connection is established or not use isConnect() function it returns boolean false
-	
-	That's yet. Than you.
-	
+	To check whether the connection is established or not use isConnect() function it returns boolean value.
 	
  * Dbconnect class contain another function that is selectAllData() which is used to fatch all the data stored in a
    spacific table. It takes a parameter as table name and takes the Database as previously given.
