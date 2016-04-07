@@ -4,15 +4,18 @@
  
  * How to use -
  
- 	Obj = new DbConnect("Server_name","User_name","Password","Database_Name");
+ 	Obj = new Server("Server_name","User_name","Password","Database_Name");
 		
-	To check whether the connection is established or not use isConnect() function it returns boolean value.
+	To check whether the connection is established or not use isConnect() function it returns boolean false
 	
- * Dbconnect class contain another function that is selectAllData() which is used to fatch all the data stored in a
+	That's yet. Than you.
+	
+	
+ * Server class contain another function that is selectAllData() which is used to fatch all the data stored in a
    spacific table. It takes a parameter as table name and takes the Database as previously given.
 */
 
-class DbConnect {
+class Server {
 	
 	private $serverName;
 	private $dbName;
