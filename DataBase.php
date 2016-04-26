@@ -75,17 +75,6 @@ class DataBase {
 		}
 	}
 	
-	public function dropCurrentDB(){
-		
-		$result = mysqli_query($GLOBALS['connect'],"drop database ".$GLOBALS['connect']);
-	
-		if(!$result){
-			return false;
-		} else {
-			return true;
-		}
-	}
-	
 	public function dropSelectedDB($dbName){
 	
 		$result = mysqli_query($GLOBALS['connect'],"drop database $dbName");
