@@ -4,4 +4,4 @@ This repository is contain php api which is basically needed in php releated dev
 in a proper way in order to minimize the work.
 
 Documentation provided in 
-# clearstock.site88.net
+<a href='http://clearstock.site88.net'> clearstock.site88.net </a>
